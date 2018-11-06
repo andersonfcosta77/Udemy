@@ -9,12 +9,13 @@ using Xamarin.Forms.Xaml;
 
 namespace App02_TipoPaginaXF.TipoPagina.Carrossel
 {
-	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class TipoPagina1 : ContentPage
-	{
-		public TipoPagina1 ()
-		{
-			InitializeComponent ();
-		}
-	}
+    [XamlCompilation(XamlCompilationOptions.Compile)]
+    public partial class TipoPagina1 : ContentPage
+    {
+        public TipoPagina1()
+        {
+            InitializeComponent();
+        }
+
+     }
 }

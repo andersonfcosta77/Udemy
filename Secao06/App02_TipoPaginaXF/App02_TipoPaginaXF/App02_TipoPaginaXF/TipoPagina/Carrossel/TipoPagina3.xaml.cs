@@ -18,7 +18,9 @@ namespace App02_TipoPaginaXF.TipoPagina.Carrossel
 		}
         private void MudarPagina(object sender, EventArgs args)
         {
-            App.Current.MainPage = new NavigationPage(new Navigation.Pagina1()) { BarBackgroundColor = Color.MediumAquamarine } ;
+            //Este código está comentado para testar a TabbedPage com menu
+            //App.Current.MainPage = new NavigationPage(new Navigation.Pagina1()) { BarBackgroundColor = Color.MediumAquamarine } ;
+            App.Current.MainPage = new Tabbed.Abas();
         }
     }
 }

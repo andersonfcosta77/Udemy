@@ -13,7 +13,7 @@ namespace App01_LayoutsXF
 		{
 			InitializeComponent();
 
-			MainPage = new App01_LayoutsXF.MainPage();
+			MainPage = new NavigationPage( new App01_LayoutsXF.MainPage());
 		}
 
 		protected override void OnStart ()

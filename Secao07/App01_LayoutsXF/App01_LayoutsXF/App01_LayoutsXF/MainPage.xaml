@@ -3,9 +3,16 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:App01_LayoutsXF"
              x:Class="App01_LayoutsXF.MainPage">
-
-	<Label Text="Welcome to Xamarin.Forms!" 
-           VerticalOptions="Center" 
-           HorizontalOptions="Center" />
-
+    <StackLayout>
+        <Button Text="Stack" 
+                Clicked="GoPagniaStack"/>
+        <Button Text="Grid" 
+                Clicked="GoPagniaGrid"/>
+        <Button Text="Absolut" 
+                Clicked="GoPagniaAbsolut"/>
+        <Button Text="Relative" 
+                Clicked="GoPagniaRelative"/>
+        <Button Text="Scroll" 
+                Clicked="GoPagniaScroll"/>
+    </StackLayout>
 </ContentPage>
